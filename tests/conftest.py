@@ -27,3 +27,17 @@ def day_3_corrupted_muls():
 @pytest.fixture
 def day_3_conditioned_muls():
     return "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))"
+
+
+@pytest.fixture
+def day_4_wordsearch():
+    return """MMMSXXMASM
+MSAMXMSMSA
+AMXSXMAAMM
+MSAMASMSMX
+XMASAMXAMM
+XXAMMXXAMA
+SMSMSASXSS
+SAXAMASAAA
+MAMMMXMMMM
+MXMXAXMASX"""
